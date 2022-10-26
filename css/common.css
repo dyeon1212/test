@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+html { font-size: 62.5%;}
+
+* {margin: 0; padding: 0; box-sizing: border-box;}
+table {border-collapse: collapse; width: 100%;}
+ul, ol {list-style: none;}
+a {color: #000; text-decoration: none;}
+address {font-style: normal;}
+
+
+fieldset, input, textarea, select {vertical-align:middle; outline: none; appearance: none; border: 0;}
+/* select 태그 화살표 없애기 appearance: none;  세로정렬 vertical-align: auto; (다른 태그에서 추가할 수 없는, 특수한 요소)*/
+
+
+legend {display: none;}
